@@ -1,0 +1,64 @@
+Students
+--
+StudentID
+FirstName 
+LastName 
+
+Courses
+--
+CourseID 
+Name 
+Code 
+Description
+
+Offices
+--
+OfficeID 
+OfficeNumber 
+Building 
+Whiteboard 
+PaintColor 
+
+Professors
+rel - Offices
+--
+ProfessorID 
+FirstName 
+LastName 
+OfficeID
+
+Semesters
+--
+SemesterID
+Name 
+StartDate 
+EndDate
+
+ScheduledCourses
+rel >- Courses
+rel >- Semesters
+rel >- Professors
+--
+CRN 
+CourseID 
+SemesterID 
+ProfessorID 
+Room 
+TimeSlot 
+
+GradingSystem
+--
+GradeID 
+LetterGrade
+Value 
+Percent 
+Description 
+
+Rosters
+rel >- Students
+rel >- ScheduledCourses
+rel >- GradingSystem
+--
+StudentID
+CRN
+GradeID

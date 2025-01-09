@@ -1,0 +1,22 @@
+StorageBuilding
+---
+Name varchar(50)
+Address varchar(100)
+FloorSize decimal(10,3)
+
+ProductType
+---
+ProductCode int
+Length decimal(6,3)
+Width decimal(6,3)
+Height decimal(6,3)
+Description varchar(500)
+
+
+ProductInventory
+rel -< StorageBuilding
+rel -< ProductType
+---
+SerialNum char(15)
+ProductCode int
+StorageLocation varchar(50)

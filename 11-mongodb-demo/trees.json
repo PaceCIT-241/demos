@@ -1,0 +1,42 @@
+[
+    {
+      "species": "Acer",
+      "common name": "Maple",
+      "plot": "Swamp",
+      "age": "Mature",
+      "dbh": 40
+    },
+    {
+      "species": "Quercus",
+      "common name": "Oak",
+      "plot": "Swamp",
+      "age": "Mature",
+      "dbh": 30
+    },
+    {
+      "species": "Fraxinus",
+      "common name": "Ash",
+      "plot": "Hilltop",
+      "age": "Seeding"
+    },
+    {
+      "species": "Robinia",
+      "common name": "Locust",
+      "plot": "Hilltop",
+      "age": "Mature",
+      "dbh": 20
+    },
+    {
+      "species": "Castanea",
+      "common name": "Chestnut",
+      "plot": "Hilltop",
+      "age": "Mature",
+      "dbh": 50
+    },
+    {
+      "species": "Carya",
+      "common name": "Hickory",
+      "plot": "Hilltop",
+      "age": "Seedling"
+    }
+  ]

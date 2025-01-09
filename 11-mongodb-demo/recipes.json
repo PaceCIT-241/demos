@@ -1,0 +1,167 @@
+{
+	"title": "Sandies Cookies",
+	"tools": [3, 8, 14, 18, 22],
+	"ingredients": [
+		{
+			"name": "Sugar",
+			"amount": 0.50,
+			"units": "cups"
+		},
+		{
+			"name": "Flour",
+			"amount": 2.00,
+			"units": "cups"
+		},
+		{
+			"name": "Walnuts",
+			"amount": 1.00,
+			"units": "cups"
+		},
+		{
+			"name": "butter",
+			"amount": 0.50,
+			"units": "lbs"
+		},
+		{
+			"name": "vanilla",
+			"amount": 1.00,
+			"units": "teaspoons"
+		}
+	],
+	"instructions": [
+		"Cream butter and sugar",
+		"Add vanilla and flour, mix well",
+		"Add nuts, mix",
+		"Drop by teaspoon onto ungreesed cookie sheet",
+		"Cook at 325 F for 18-20 mins. Do not brown"
+	]
+}
+{
+	"title": "Peanut Butter Cookies",
+	"note": "delicious",
+	"tools": [3, 4, 8, 9, 14, 16, 18, 21, 22],
+	"ingredients": [
+		{
+			"name": "Sugar",
+			"amount": 1.00,
+			"units": "cups"
+		},
+		{
+			"name": "Brown sugar",
+			"amount": 1.00,
+			"units": "cups"
+		},
+		{
+			"name": "Flour",
+			"amount": 3.00,
+			"units": "cups"
+		},
+		{
+			"name": "Baking soda",
+			"amount": 2.00,
+			"units": "teaspoons"
+		},
+		{
+			"name": "salt",
+			"amount": 0.13,
+			"units": "teaspoons"
+		},
+		{
+			"name": "peanut butter",
+			"amount": 1.00,
+			"units": "cups"
+		},
+		{
+			"name": "butter",
+			"amount": 0.50,
+			"units": "lbs"
+		},
+		{
+			"name": "vanilla",
+			"amount": 1.00,
+			"units": "teaspoons"
+		},
+		{
+			"name": "eggs",
+			"amount": 2.00,
+			"units": null
+		},
+		{
+			"name": "shortening",
+			"amount": 0.50,
+			"units": "cups"
+		}
+	],
+	"instructions" : [
+		"Preheat oven to 350 F",
+		"Thoroughly cream shortening, vanilla, sugar, brown sugar",
+		"Add eggs and beat well",
+		"Stir in peanut butter",
+		"In a separate bowl, mix together flour, salt, baking soda",
+		"Add flour mixture to peanut butter mixture, combine thoroughly",
+		"Form into tiny balls and place on cookie sheets",
+		"Press each cookie twice with the back of a fork to make a crisscross design",
+		"Bake 8-10 mins"
+	]
+}
+{
+	"title": "Cheesecake",
+	"note": "the best",
+	"tools": [3, 5, 6, 8, 9, 12, 14, 16, 23],
+	"ingredients": [
+		{
+		  "name": "Sugar",
+		  "amount": 1.87,
+		  "units": "cups"
+		},
+		{
+		  "name": "salt",
+		  "amount": 0.13,
+		  "units": "teaspoons"
+		},
+		{
+		  "name": "butter",
+		  "amount": 0.50,
+		  "units": "lbs"
+		},
+		{
+		  "name": "vanilla",
+		  "amount": 2.00,
+		  "units": "teaspoons"
+		},
+		{
+		  "name": "eggs",
+		  "amount": 4.00,
+		  "units": null
+		},
+		{
+		  "name": "graham crackers",
+		  "amount": 1.50,
+		  "units": "cups"
+		},
+		{
+		  "name": "cream cheese",
+		  "amount": 24.00,
+		  "units": "oz"
+		},
+		{
+		  "name": "sour cream",
+		  "amount": 16.00,
+		  "units": "oz"
+		}
+	  ],
+	"instructions" : [
+		"Crumb crust: Mix graham cracker crumbs, 1/4 c sugar (scant), butter. Press firmly over the bottom and up the sides 2 1/2 inches of a heavily buttered spring-form pan. Chill.",
+		"Filling: Let cream cheese soften in a bowl",
+		"Blend 1 1/2 c sugar with cream cheese",
+		"Add salt. Beat until fluffy",
+		"Add eggs one at a time beating well at low speed after each addition",
+		"Beat in 1 tsp. vanilla and 8 oz sour cream",
+		"Pour into crumb crust",
+		"Bake at 350 F for 50 mins or more until up to the rim of the pan and slightly browned",
+		"Remove from oven and let stand for 15 mins",
+		"Topping: Mix remaining 8 oz. sour cream with 1 tsp vanilla and 2 tblsp sugar",
+		"Spead topping on cake. Return to oven for 10 minutes",
+		"CHILL completely"
+	]
+}

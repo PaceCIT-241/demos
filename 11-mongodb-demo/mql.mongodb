@@ -1,0 +1,102 @@
+
+db.tools.find()
+
+db.tools.find({"name": "Whisk"})
+
+db.tools.find({"location": "left bottom cabinet"})
+
+db.tools.find({"name": { $regex: /measure$/i }})
+
+db.tools.find({}, {"name":1})
+
+db.tools.find({"name": "Whisk"},{"location":1, "name": 1})
+
+db.tools.find({"location": "left bottom cabinet"}).count()
+
+db.tools.find({"name": { $regex: /measure$/i }}).limit(2)
+
+
+db.tools.find().sort({"location": 1})
+
+db.tools.find().sort({"id": -1})
+
+
+db.tools.aggregate([
+    {
+        "$match": {
+            "location": "left bottom cabinet"
+        }
+    }
+])
+
+db.tools.aggregate([
+    {
+        "$match": {
+            "location": "left bottom cabinet"
+        }
+    },
+    {
+        "$count": "items in bottom left cabinet"
+    }
+])
+
+db.tools.aggregate([
+    {
+        "$match": {
+            "name": { $regex: /measure$/i }
+        }
+    },
+    {
+        "$limit": 2
+    }
+])
+
+db.tools.aggregate([
+    {
+        "$sort": {
+            "location": 1
+        }
+    }
+])
+
+db.tools.aggregate([
+    {
+        "$sort": {
+            "id": -1
+        }
+    }
+])
+
+
+db.recipes.find()
+
+db.recipes.find({"ingredients.name": "Walnuts"}, {"title":1, "ingredients": 1})
+
+db.recipes.find({"title": "Sandies Cookies"}, {"title":1, "ingredients": 1})
+    .sort({'ingredients.amount': 1})
+
+
+db.tools.insertOne({"id": 24, "name": "mixer", "location": "countertop",
+    "attachments": [
+        "dough hook",
+        "whisk",
+        "beater"
+    ]
+})
+
+db.tools.find({"id": 24})
+
+db.tools.updateOne({"id": 24}, { $set: {"location": "counter-top"}})
+
+db.tools.updateOne({"id": 24}, { $push: {"attachments": "grater"}})
+
+db.tools.deleteOne({"id": 24})
+
+
+
+db.tools.createIndex({"name": 1})
+
+db.tools.getIndexes()
+
+db.tools.dropIndex("name_1")
+

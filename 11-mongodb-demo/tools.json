@@ -1,0 +1,121 @@
+{
+"id": 1,
+"name": "Large Frying Pan",
+"desc": "non-stick",
+"location": "left cabinet"
+}
+{
+"id": 2,
+"name": "Small Frying Pan",
+"desc": "non-stick",
+"location": "left cabinet"
+}
+{
+"id": 3,
+"name": "Large mixing bowl",
+"location": "left island cabinet"
+}
+{
+"id": 4,
+"name": "Medium mixing bowl",
+"location": "left island cabinet"
+}
+{
+"id": 5,
+"name": "Small mixing bowl",
+"location": "left island cabinet"
+}
+{
+"id": 6,
+"name": "Whisk",
+"location": "middle drawer"
+}
+{
+"id": 7,
+"name": "Scraper",
+"location": "middle drawer"
+}
+{
+"id": 8,
+"name": "1 cup measure",
+"location": "left drawer"
+}
+{
+"id": 9,
+"name": "1/2 cup measure",
+"location": "left drawer"
+}
+{
+"id": 10,
+"name": "1/3 cup measure",
+"location": "left drawer"
+}
+{
+"id": 11,
+"name": "1/4 cup measure",
+"location": "left drawer"
+}
+{
+"id": 12,
+"name": "1 tablespoon measure",
+"location": "left drawer"
+}
+{
+"id": 13,
+"name": "1/2 tablespoon measure",
+"location": "left drawer"
+}
+{
+"id": 14,
+"name": "1 teaspoon measure",
+"location": "left drawer"
+}
+{
+"id": 15,
+"name": "1/2 teaspoon measure",
+"location": "left drawer"
+}
+{
+"id": 16,
+"name": "1/4 teaspoon measure",
+"location": "left drawer"
+}
+{
+"id": 17,
+"name": "liquid measure",
+"desc": "pyrex; 2 cups",
+"location": "top left cabinet"
+}
+{
+"id": 18,
+"name": "cookie pan",
+"desc": "blue; cooks fast",
+"location": "middle bottom cabinet"
+}
+{
+"id": 19,
+"name": "dutch oven",
+"desc": "iron; 100 yrs old",
+"location": "right bottom cabinet"
+}
+{
+"id": 20,
+"name": "pie pan",
+"desc": "pyrex",
+"location": "left bottom cabinet"
+}
+{
+"id": 21,
+"name": "fork",
+"location": "cutlery drawer"
+}
+{
+"id": 22,
+"name": "mixing spoon",
+"location": "right drawer"
+}
+{
+"id": 23,
+"name": "spring-form pan",
+"location": "left bottom cabinet"
+}

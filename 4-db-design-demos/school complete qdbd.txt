@@ -1,0 +1,57 @@
+Students
+--
+StudentID int PK IDENTITY
+FirstName varchar(100)
+LastName varchar(100)
+
+Courses
+--
+CourseID int PK IDENTITY
+Name varchar(50)
+Code varchar(10)
+Description varchar(1000)
+
+Offices
+--
+OfficeID int PK IDENTITY
+OfficeNumber int
+Building varchar(100)
+Whiteboard bit
+PaintColor varchar(100)
+
+Professors
+--
+ProfessorID int PK IDENTITY
+FirstName varchar(100)
+LastName varchar(100)
+OfficeID int null FK - Offices.OfficeID
+
+Semesters
+--
+SemesterID int PK IDENTITY
+Name varchar(20)
+StartDate date
+EndDate date
+
+ScheduledCourses
+--
+CRN int PK
+CourseID int FK >- Courses.CourseID
+SemesterID int FK >- Semesters.SemesterID
+ProfessorID int FK >- Professors.ProfessorID
+Room varchar(100) null
+TimeSlot varchar(100) null
+
+GradingSystem
+--
+GradeID int PK IDENTITY
+LetterGrade char(5)
+Value decimal(3,2) null
+Percent varchar(15) null
+Description varchar(200)
+
+Rosters
+--
+StudentID int PK FK >- Students.StudentID
+CRN int PK FK >- ScheduledCourses.CRN
+GradeID int null FK >- GradingSystem.GradeID
