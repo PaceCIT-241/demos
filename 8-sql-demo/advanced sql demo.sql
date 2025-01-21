@@ -1,5 +1,4 @@
 USE inventory;
--- Active: 1732637902461@@127.0.0.1@3306@inventory
 -- I want to know which manufacturers make claw hammers
 
 -- I can work backward through the tables:
