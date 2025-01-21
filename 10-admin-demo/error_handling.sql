@@ -1,10 +1,12 @@
+-- Active: 1737479855987@@127.0.0.1@3306@books
 USE Books;
 
 DELIMITER \\
 create or replace PROCEDURE insertLoan(
     isbn varchar(20), 
     borrower varchar(250), 
-    startDate date
+    startDate date,
+    out response VARCHAR(1000)
 ) 
 begin
     
@@ -13,7 +15,8 @@ begin
     GET DIAGNOSTICS CONDITION 1 @sqlstate = RETURNED_SQLSTATE, 
     @errno = MYSQL_ERRNO, @text = MESSAGE_TEXT;
     SET @full_error = CONCAT("ERROR ", @errno, " (", @sqlstate, "): ", @text);
-    SELECT @full_error;
+    -- SELECT @full_error;
+    SET response = @full_error;
     END;
 
     # code that may cause errors
@@ -21,4 +24,5 @@ begin
       values (isbn, borrower, startDate);
 end //
 
-call insertLoan('978-0998587516', 'EM' ,'2025-01-05');
+call insertLoan('978-0998587516', 'EM' ,'2025-01-05', @response);
+select @response;
