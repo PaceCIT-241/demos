@@ -1,3 +1,4 @@
+-- Active: 1737479855987@@127.0.0.1@3306@school
 USE inventory;
 -- I want to know which manufacturers make claw hammers
 
@@ -63,8 +64,11 @@ from Professors p left join Offices o on p.OfficeID = o.OfficeId
 select CONCAT_WS(' ', FirstName, LastName) as Name, OfficeNumber 
 from Professors p right join Offices o on p.OfficeID = o.OfficeId
 
-select CONCAT_WS(' ', FirstName, LastName) as Name, OfficeNumber
-from Professors p join Offices o on p.OfficeID = o.OfficeId
+select CONCAT_WS(' ', FirstName, LastName) as Name, OfficeNumber 
+from Professors p left join Offices o on p.OfficeID = o.OfficeId
+union
+select CONCAT_WS(' ', FirstName, LastName) as Name, OfficeNumber 
+from Professors p right join Offices o on p.OfficeID = o.OfficeId
 
 use Inventory
 
