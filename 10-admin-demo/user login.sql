@@ -15,7 +15,7 @@ create role librarian;
 
 grant select, insert, update on *.* to librarian;
 
-show roles;
+select * from mysql.roles_mapping;
 
 grant librarian to 'TestLogin'@'localhost';
 

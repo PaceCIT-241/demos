@@ -1,4 +1,3 @@
--- Active: 1737479855987@@127.0.0.1@3306@books
 USE Books;
 
 DELIMITER \\
