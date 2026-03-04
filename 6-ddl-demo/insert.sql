@@ -9,6 +9,8 @@ VALUES
 ('B20','paving stone'),
 ('GL55L', 'bracket');
 
+delete from products;
+
 INSERT INTO ProductInventory
 VALUES
 ('C470',4,'WesternHardware',200),
