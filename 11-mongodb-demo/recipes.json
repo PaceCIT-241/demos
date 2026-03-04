@@ -83,8 +83,7 @@
 		},
 		{
 			"name": "eggs",
-			"amount": 2.00,
-			"units": null
+			"amount": 2.00
 		},
 		{
 			"name": "shortening",
@@ -126,7 +125,7 @@
 		},
 		{
 		  "name": "vanilla",
-		  "amount": 2.00,
+		  "amount": 2,
 		  "units": "teaspoons"
 		},
 		{
